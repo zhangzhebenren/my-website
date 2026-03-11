@@ -1,0 +1,15 @@
+# 依赖库
+node_modules/
+
+# VitePress 编译输出
+.vitepress/dist/
+.vitepress/cache/
+
+# 环境变量与日志
+.DS_Store
+*.log
+.env*
+
+# 编辑器配置
+.vscode/
+.idea/
