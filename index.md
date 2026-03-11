@@ -5,31 +5,43 @@
  * @Autor: ZhangZhe
  * @Date: 2026-03-11 17:43:46
  * @LastEditors: ZhangZhe
- * @LastEditTime: 2026-03-11 17:54:17
+ * @LastEditTime: 2026-03-11 18:38:11
+-->
+<!--
+ * @Description: 
+ * @FilePath: \my-website\index.md
+ * @Version: 1.0
+ * @Autor: ZhangZhe
+ * @Date: 2026-03-11 17:43:46
+ * @LastEditors: ZhangZhe
+ * @LastEditTime: 2026-03-11 18:37:53
 -->
 ---
 layout: home
 
 hero:
-  name: "YYZZ.online"
-  text: "Senior Frontend Developer"
-  tagline: 跨端开发 | UI 适配专家 | 宝贝魔盒 PWA
+  name: "YYZZ.ONLINE"
+  text: "Senior Frontend / Mobile Architect"
+  tagline: "Building 'Baby Magic Box' & Mastering Diamond Briar"
   image:
-    src: https://vuejs.org/images/logo.png
-    alt: Logo
+    src: /logo.png # 如果有的话
+    alt: Cyber Logo
   actions:
     - theme: brand
-      text: 阅读博客
-      link: /markdown-examples
+      text: 探索技术实验室
+      link: /projects/baby-magic-box
     - theme: alt
-      text: 在 GitHub 查看
+      text: 查看 GitHub
       link: https://github.com/zhangzhebenren
 
 features:
-  - title: 📱 移动端深度优化
-    details: 金融级 App 实战，精通折叠屏、iPad 及各类异形屏适配方案。
-  - title: 🛠️ 技术栈
-    details: Vue 生态深度使用者，擅长 PWA、Canvas 动画及自动化构建。
-  - title: 🎮 竞技心态
-    details: Diamond 玩家，在代码与游戏竞技中寻找逻辑的极致。
+  - title: 📱 移动端架构
+    details: 折叠屏适配、金融级 UI 框架、Android 深度调试。
+    icon: ⚡
+  - title: 👶 宝贝魔盒 (PWA)
+    details: 为 10 个月宝宝开发的粒子感官系统，离线技术实战。
+    icon: 🎁
+  - title: ⚔️ 竞技哲学
+    details: 从 League of Legends 钻一段位聊聊开发者的抗压与博弈。
+    icon: 💎
 ---

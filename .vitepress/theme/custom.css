@@ -1,0 +1,39 @@
+/* .vitepress/theme/custom.css */
+
+:root {
+  /* 赛博配色方案 */
+  --vp-c-brand-1: #00f2ff; /* 霓虹青 */
+  --vp-c-brand-2: #7000ff; /* 电子紫 */
+  --vp-c-bg: #050505;      /* 纯黑背景 */
+  --vp-c-bg-soft: #0a0a0c;
+  --vp-c-text-1: #e0e0e0;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #00f2ff 0%, #7000ff 100%);
+}
+
+/* 标题发光特效 */
+.VPHero .name {
+  text-shadow: 0 0 20px rgba(0, 242, 255, 0.5);
+  letter-spacing: -1px;
+}
+
+/* 卡片玻璃拟态 */
+.VPFeature {
+  background-color: rgba(20, 20, 25, 0.8) !important;
+  border: 1px solid rgba(112, 0, 255, 0.3) !important;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: #00f2ff !important;
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+/* 导航栏毛玻璃 */
+.VPNav {
+  background-color: rgba(5, 5, 5, 0.7) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0, 242, 255, 0.1);
+}
